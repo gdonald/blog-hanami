@@ -6,3 +6,7 @@ AllCops:
   NewCops: enable
 Style/Documentation:
   Enabled: false
+RSpec/Rails/InferredSpecType:
+  Enabled: false
+Rake/Desc:
+  Enabled: false
