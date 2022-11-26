@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 
 ruby '3.1.3'
 
+gem 'bcrypt', '~> 3.1.18'
 gem 'dry-types', '~> 1.0', '>= 1.6.1'
 gem 'hanami', '~> 2.0'
 gem 'hanami-controller', '~> 2.0'

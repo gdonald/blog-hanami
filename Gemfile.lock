@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.2)
+    bcrypt (3.1.18)
     coderay (1.1.3)
     concurrent-ruby (1.1.10)
     database_cleaner-core (2.0.1)
@@ -230,6 +231,7 @@ PLATFORMS
   arm64-darwin-22
 
 DEPENDENCIES
+  bcrypt (~> 3.1.18)
   database_cleaner-sequel
   dotenv
   dry-types (~> 1.0, >= 1.6.1)
